@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     movie = Movie.find(params[:id])
     render json: movie
   end
-
+  
   private
 
   def render_not_found_response
